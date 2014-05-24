@@ -12,6 +12,7 @@ bin/zild-make-dist-ini
 lib/Zilla/Dist.pm
 lib/Zilla/Dist.pod
 share/Makefile
+share/Meta
 share/dist.ini
 t/release-pod-syntax.t
 t/use_ok.t

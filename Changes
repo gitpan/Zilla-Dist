@@ -1,3 +1,8 @@
+0.0.3 Fri May 23 18:15:19 PDT 2014
+ - Doc corrections
+ - Fixed little nits
+ - Added example Meta file for `zild setup`
+
 0.0.2 Fri May 23 17:14:39 PDT 2014
  - Fixed sharedir
  - Fixed doc bug
