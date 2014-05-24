@@ -1,3 +1,7 @@
+0.0.5 Fri May 23 23:28:41 PDT 2014
+ - Move some Makefile shell stuff into Zilla::Dist
+ - More same Meta YAML handling
+
 0.0.4 Fri May 23 23:01:07 PDT 2014
  - More helpful doc
 
