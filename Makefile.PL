@@ -30,10 +30,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Zilla::Dist",
   "PREREQ_PM" => {
+    "Dist::Zilla" => 0,
+    "File::Share" => 0,
+    "Hash::Merge" => 0,
+    "IO::All" => 0,
     "Template::Toolkit::Simple" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.3",
+  "VERSION" => "0.0.4",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,6 +45,10 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Dist::Zilla" => 0,
+  "File::Share" => 0,
+  "Hash::Merge" => 0,
+  "IO::All" => 0,
   "Template::Toolkit::Simple" => 0,
   "YAML::XS" => 0
 );
