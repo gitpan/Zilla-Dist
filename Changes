@@ -1,3 +1,6 @@
+0.0.7 Thu May 29 11:02:39 EDT 2014
+ - Add cpanshell and distshell support
+
 0.0.6 Thu May 29 00:41:51 EDT 2014
  - Allow for per dist custom tool/make-cpan
 

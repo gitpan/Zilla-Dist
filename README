@@ -67,10 +67,9 @@ DESCRIPTION
     "make doc"
         Make the "ReadMe.pod" and other stuff.
 
-    Turn repo into a `Dist
-        Zilla" ready subdirectory called ".*cpan*`. This
-
-        "make cpan" directory has a "dist.ini" file.
+    "make cpan"
+        Turn repo into a "Dist::Zilla" ready subdirectory called "./cpan/".
+        This directory has a "dist.ini" file.
 
     "make dist"
         Basically the same as "make cpan; cd cpan; dzil build".
@@ -84,10 +83,8 @@ DESCRIPTION
     "make publish-dryrun"
         Yep.
 
-    Upgrade the [Zilla
-        Dist] "Makefile".
-
-        "make upgrade"
+    "make upgrade"
+        Upgrade the Zilla::Dist "Makefile".
 
 RATIONALE RANTING
     I've published a lot of *packages* in a lot of programming languages. I
