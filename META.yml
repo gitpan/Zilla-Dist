@@ -13,6 +13,11 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Zilla-Dist
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
 requires:
   Dist::Zilla: '0'
   File::Share: '0'
@@ -25,4 +30,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.5
+version: 0.0.6
