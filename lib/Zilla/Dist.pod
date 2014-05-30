@@ -8,7 +8,7 @@ See http://github.com/ingydotnet/kwim-pm#readme
 
 =head1 NAME
 
-Zilla::Dist - Dist::Zilla Bashed Inside Out
+Zilla::Dist - Dist::Zilla Mixed Up
 
 =head1 SYNOPSIS
 

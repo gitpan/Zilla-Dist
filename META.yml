@@ -1,5 +1,5 @@
 ---
-abstract: 'Dist::Zilla Bashed Inside Out'
+abstract: 'Dist::Zilla Mixed Up'
 author:
   - 'Ingy döt Net <ingy@cpan.org>'
 build_requires: {}
@@ -30,4 +30,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.8
+version: 0.0.9
