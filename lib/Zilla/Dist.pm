@@ -1,7 +1,6 @@
-# ABSTRACT: Dist::Zilla Mixed Up
 use strict;
 package Zilla::Dist;
-$Zilla::Dist::VERSION = '0.0.9';
+$Zilla::Dist::VERSION = '0.0.10';
 use YAML::XS;
 use File::Share;
 use IO::All;

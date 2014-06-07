@@ -86,6 +86,9 @@ DESCRIPTION
     "make upgrade"
         Upgrade the Zilla::Dist "Makefile".
 
+    "make help"
+        Show documentation for all targets.
+
 RATIONALE RANTING
     I've published a lot of *packages* in a lot of programming languages. I
     like taking the best ideas and spreading them around. I like reusing
