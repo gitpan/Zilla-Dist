@@ -1,3 +1,6 @@
+0.0.14 Sat Jun  7 12:32:30 PDT 2014
+ - Add Kwim prereq
+
 0.0.13 Sat Jun  7 11:28:56 PDT 2014
  - Carp in Makefile if Zilla::Dist is not installed.
 
