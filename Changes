@@ -1,3 +1,6 @@
+0.0.16 Sun Jun  8 13:04:14 PDT 2014
+ - Update files before commiting during `make release`
+
 0.0.15 Sun Jun  8 12:26:35 PDT 2014
  - Add travis building support
 
