@@ -1,3 +1,7 @@
+0.0.17 Sun Jun  8 18:14:22 PDT 2014
+ - Add test.requires and recommends to travis.yml
+ - Add irc motify support to travis.yml
+
 0.0.16 Sun Jun  8 13:04:14 PDT 2014
  - Update files before commiting during `make release`
 
