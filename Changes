@@ -1,3 +1,6 @@
+0.0.19 Fri Jun 13 22:41:15 PDT 2014
+ - Support xt tests (Issue
+
 0.0.18 Fri Jun 13 21:26:03 PDT 2014
  - Add TestBase support (for YAML.pm mostly)
 
