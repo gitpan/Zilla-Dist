@@ -1,3 +1,6 @@
+0.0.18 Fri Jun 13 21:26:03 PDT 2014
+ - Add TestBase support (for YAML.pm mostly)
+
 0.0.17 Sun Jun  8 18:14:22 PDT 2014
  - Add test.requires and recommends to travis.yml
  - Add irc motify support to travis.yml
