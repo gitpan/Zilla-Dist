@@ -1,3 +1,6 @@
+0.0.23 Sun Jun 15 13:51:58 PDT 2014
+ - Remove failing tests from cpan/t/
+
 0.0.22 Sun Jun 15 11:38:34 PDT 2014
  - Do better version/meta/changes verification
 
