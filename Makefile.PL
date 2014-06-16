@@ -23,6 +23,7 @@ my %WriteMakefileArgs = (
   "DISTNAME" => "Zilla-Dist",
   "EXE_FILES" => [
     "bin/zild-make-cpan",
+    "bin/zild-version-update",
     "bin/zild-make-dist-ini",
     "bin/zild-check-release",
     "bin/zild-make-travis",
@@ -39,7 +40,7 @@ my %WriteMakefileArgs = (
     "Template::Toolkit::Simple" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.23",
+  "VERSION" => "0.0.24",
   "test" => {
     "TESTS" => "t/*.t"
   }

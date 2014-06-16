@@ -1,3 +1,6 @@
+0.0.24 Mon Jun 16 13:39:33 PDT 2014
+ - Added VERSION updating.
+
 0.0.23 Sun Jun 15 13:51:58 PDT 2014
  - Remove failing tests from cpan/t/
 
