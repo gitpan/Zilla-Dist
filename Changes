@@ -1,5 +1,6 @@
-0.0.26 Mon Jun 16 13:58:38 PDT 2014
- - Copy eg to cpan/example and noindex example
+0.0.27 Mon Jun 16 16:03:22 PDT 2014
+ - Allow for JSONY Changes file
+ - Press enter to continue. Easier.
 
 0.0.25 Mon Jun 16 13:43:27 PDT 2014
  - Remove a debugging line.
