@@ -1,3 +1,6 @@
+0.0.30 Wed Jun 18 11:05:24 PDT 2014
+ - Add META.json file to each dist
+
 0.0.29 Tue Jun 17 10:37:04 PDT 2014
  - Don't require retry when Makefile updates
 
