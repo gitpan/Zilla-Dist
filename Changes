@@ -1,3 +1,6 @@
+0.0.33 Sat Jun 21 14:28:51 PDT 2014
+ - Botched the 0.0.32 release.
+
 0.0.32 Sat Jun 21 14:11:52 PDT 2014
  - Add cowsay message to 'make release'. Issue 8
  - Check for VERSION statement in module. Issue 6
