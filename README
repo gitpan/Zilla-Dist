@@ -23,9 +23,9 @@ DESCRIPTION
         Changes         # History in YAML
         Makefile        # Automation of test, dist, publish, etc
         Meta            # Meta info for all metadata needs (including dzil)
-        ReadMe.pod      # Generated from `doc/Module.kwim`
+        ReadMe.pod      # Generated from `doc/Module.swim`
         bin/            # Scripts
-        doc/            # Kwim docs
+        doc/            # Swim docs
         eg/             # Examples
         lib/            # Perl `.pm` code
         share/          # Shared files
@@ -167,7 +167,7 @@ SEE ALSO
 
     *   <https://github.com/ingydotnet/testml-pm>
 
-    *   <https://github.com/ingydotnet/kwim-pm>
+    *   <https://github.com/ingydotnet/swim-pm>
 
     *   <https://github.com/ingydotnet/file-share-pm>
 

@@ -1,3 +1,6 @@
+0.0.36 Wed Jun 25 14:38:29 PDT 2014
+ - Substitute Kwim with Swim
+
 0.0.35 Mon Jun 23 16:05:03 PDT 2014
  - Fix bug in zild-make-cpan for eg copy.
 

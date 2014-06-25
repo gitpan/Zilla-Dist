@@ -39,7 +39,7 @@
             "File::Share" : "0",
             "Hash::Merge" : "0",
             "IO::All" : "0",
-            "Kwim" : "v0.0.7",
+            "Swim" : "v0.0.7",
             "Template::Toolkit::Simple" : "0",
             "YAML::XS" : "0",
             "perl" : "v5.8.1"
@@ -58,6 +58,6 @@
          "web" : "https://github.com/ingydotnet/zilla-dist-pm"
       }
    },
-   "version" : "0.0.35"
+   "version" : "0.0.36"
 }
 
