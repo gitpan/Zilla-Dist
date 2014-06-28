@@ -1,3 +1,6 @@
+0.0.40 Fri Jun 27 19:27:28 PDT 2014
+ - Add a bunch more mdules to shipped list.
+
 0.0.39 Thu Jun 26 13:00:56 PDT 2014
  - Be more lenient on VERSION checking.
  - Allow fully qualified over `our` style.
