@@ -1,4 +1,8 @@
-0.0.46 Wed Jul  2 21:25:38 PDT 2014
+0.0.47 Fri Jul  4 07:23:55 PDT 2014
+ - Don't prompt to commit Changes
+ - Commit changes only after tests all pass
+
+0.0.46 Fri Jul  4 07:23:55 PDT 2014
  - Add 2 new modules to list
 
 0.0.45 Wed Jul  2 12:39:33 PDT 2014
