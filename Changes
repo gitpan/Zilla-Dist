@@ -1,3 +1,6 @@
+0.0.48 Wed Jul  9 11:12:13 PDT 2014
+ - Support release branch variable in Meta (Issue#7)
+
 0.0.47 Fri Jul  4 07:23:55 PDT 2014
  - Don't prompt to commit Changes
  - Commit changes only after tests all pass

@@ -1,6 +1,6 @@
 use strict;
 package Zilla::Dist;
-our $VERSION = '0.0.47';
+our $VERSION = '0.0.48';
 
 use YAML::XS;
 use File::Share;
@@ -41,10 +41,14 @@ sub do_sharedir {
     print $self->find_sharedir . "\n";
 }
 
+my $default = {
+    branch => 'master',
+};
 sub do_meta {
     my ($self, $key) = @_;
     my $meta = YAML::XS::LoadFile('Meta');
-    print $meta->{$key} . "\n";
+    my $value = $meta->{$key} || $default->{$key};
+    print "$value\n";
 }
 
 sub find_sharedir {
