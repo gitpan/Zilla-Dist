@@ -35,6 +35,7 @@
       },
       "runtime" : {
          "requires" : {
+            "CPAN::Uploader" : "0",
             "Dist::Zilla" : "0",
             "Dist::Zilla::Plugin::ChangesFromYaml" : "0",
             "Dist::Zilla::Plugin::GithubMeta" : "0",
@@ -62,6 +63,6 @@
          "web" : "https://github.com/ingydotnet/zilla-dist-pm"
       }
    },
-   "version" : "0.0.53"
+   "version" : "0.0.54"
 }
 

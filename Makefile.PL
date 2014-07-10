@@ -32,6 +32,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Zilla::Dist",
   "PREREQ_PM" => {
+    "CPAN::Uploader" => 0,
     "Dist::Zilla" => 0,
     "Dist::Zilla::Plugin::ChangesFromYaml" => 0,
     "Dist::Zilla::Plugin::GithubMeta" => 0,
@@ -44,7 +45,7 @@ my %WriteMakefileArgs = (
     "Template::Toolkit::Simple" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.53",
+  "VERSION" => "0.0.54",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -52,6 +53,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "CPAN::Uploader" => 0,
   "Dist::Zilla" => 0,
   "Dist::Zilla::Plugin::ChangesFromYaml" => 0,
   "Dist::Zilla::Plugin::GithubMeta" => 0,

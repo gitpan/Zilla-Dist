@@ -20,6 +20,7 @@ no_index:
     - xt
     - example
 requires:
+  CPAN::Uploader: '0'
   Dist::Zilla: '0'
   Dist::Zilla::Plugin::ChangesFromYaml: '0'
   Dist::Zilla::Plugin::GithubMeta: '0'
@@ -36,4 +37,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.53
+version: 0.0.54
