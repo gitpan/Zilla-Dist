@@ -33,6 +33,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Zilla::Dist",
   "PREREQ_PM" => {
     "Dist::Zilla" => 0,
+    "Dist::Zilla::Plugin::ChangesFromYaml" => 0,
     "File::Share" => 0,
     "Hash::Merge" => 0,
     "IO::All" => 0,
@@ -40,7 +41,7 @@ my %WriteMakefileArgs = (
     "Template::Toolkit::Simple" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.49",
+  "VERSION" => "0.0.50",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -49,6 +50,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Dist::Zilla" => 0,
+  "Dist::Zilla::Plugin::ChangesFromYaml" => 0,
   "File::Share" => 0,
   "Hash::Merge" => 0,
   "IO::All" => 0,
