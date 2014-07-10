@@ -30,6 +30,7 @@ requires:
   Hash::Merge: '0'
   IO::All: '0'
   Swim: v0.1.8
+  Swim::Plugin::badge: '0'
   Template::Toolkit::Simple: '0'
   YAML::XS: '0'
   perl: v5.8.1
@@ -37,4 +38,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.54
+version: 0.0.55

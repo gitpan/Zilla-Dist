@@ -42,10 +42,11 @@ my %WriteMakefileArgs = (
     "Hash::Merge" => 0,
     "IO::All" => 0,
     "Swim" => "v0.1.8",
+    "Swim::Plugin::badge" => 0,
     "Template::Toolkit::Simple" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.54",
+  "VERSION" => "0.0.55",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -63,6 +64,7 @@ my %FallbackPrereqs = (
   "Hash::Merge" => 0,
   "IO::All" => 0,
   "Swim" => "v0.1.8",
+  "Swim::Plugin::badge" => 0,
   "Template::Toolkit::Simple" => 0,
   "YAML::XS" => 0
 );
