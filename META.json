@@ -37,6 +37,7 @@
          "requires" : {
             "Dist::Zilla" : "0",
             "Dist::Zilla::Plugin::ChangesFromYaml" : "0",
+            "Dist::Zilla::Plugin::ReadmeFromPod" : "0",
             "File::Share" : "0",
             "Hash::Merge" : "0",
             "IO::All" : "0",
@@ -59,6 +60,6 @@
          "web" : "https://github.com/ingydotnet/zilla-dist-pm"
       }
    },
-   "version" : "0.0.50"
+   "version" : "0.0.51"
 }
 
