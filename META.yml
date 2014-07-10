@@ -23,6 +23,7 @@ requires:
   Dist::Zilla: '0'
   Dist::Zilla::Plugin::ChangesFromYaml: '0'
   Dist::Zilla::Plugin::ReadmeFromPod: '0'
+  Dist::Zilla::PluginBundle::Git: '0'
   File::Share: '0'
   Hash::Merge: '0'
   IO::All: '0'
@@ -34,4 +35,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.51
+version: 0.0.52

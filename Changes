@@ -1,3 +1,6 @@
+0.0.52 Wed Jul  9 17:39:06 PDT 2014
+ - Dep on Dist::Zilla::PluginBundle::Git, mohawk2++
+
 0.0.51 Wed Jul  9 17:37:26 PDT 2014
  - Dep on Dist::Zilla::Plugin::ReadmeFromPod, mohawk2++
 
