@@ -1,3 +1,6 @@
+0.0.56 Thu Jul 10 11:02:45 PDT 2014
+ - Initial support for CONTRIBUTE
+
 0.0.55 Thu Jul 10 10:54:37 PDT 2014
  - Dep on Swim::Plugin::badge
 

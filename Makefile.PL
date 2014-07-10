@@ -46,7 +46,7 @@ my %WriteMakefileArgs = (
     "Template::Toolkit::Simple" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.55",
+  "VERSION" => "0.0.56",
   "test" => {
     "TESTS" => "t/*.t"
   }
