@@ -1,3 +1,6 @@
+0.0.61 Sun Jul 13 15:36:24 PDT 2014
+ - Add latest modules to list.
+
 0.0.60 Fri Jul 11 15:29:24 PDT 2014
  - Added support for YAML::XS
  - Can't use prove testing (only disttest)
