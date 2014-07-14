@@ -22,11 +22,10 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "Zilla-Dist",
   "EXE_FILES" => [
+    "bin/zild-render-template",
     "bin/zild-make-cpan",
     "bin/zild-version-update",
-    "bin/zild-make-dist-ini",
     "bin/zild-check-release",
-    "bin/zild-make-travis",
     "bin/zild"
   ],
   "LICENSE" => "perl",
@@ -46,7 +45,7 @@ my %WriteMakefileArgs = (
     "Template::Toolkit::Simple" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.0.61",
+  "VERSION" => "0.0.62",
   "test" => {
     "TESTS" => "t/*.t"
   }
