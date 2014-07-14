@@ -31,21 +31,21 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Zilla::Dist",
   "PREREQ_PM" => {
-    "CPAN::Uploader" => 0,
-    "Dist::Zilla" => 0,
-    "Dist::Zilla::Plugin::ChangesFromYaml" => 0,
-    "Dist::Zilla::Plugin::GithubMeta" => 0,
-    "Dist::Zilla::Plugin::ReadmeFromPod" => 0,
-    "Dist::Zilla::PluginBundle::Git" => 0,
-    "File::Share" => 0,
-    "Hash::Merge" => 0,
-    "IO::All" => 0,
-    "Swim" => "v0.1.8",
-    "Swim::Plugin::badge" => 0,
-    "Template::Toolkit::Simple" => 0,
-    "YAML::XS" => 0
+    "CPAN::Uploader" => "0.103004",
+    "Dist::Zilla" => "5.019",
+    "Dist::Zilla::Plugin::ChangesFromYaml" => "0.004",
+    "Dist::Zilla::Plugin::GithubMeta" => "0.46",
+    "Dist::Zilla::Plugin::ReadmeFromPod" => "0.21",
+    "Dist::Zilla::PluginBundle::Git" => "2.023",
+    "File::Share" => "0.14",
+    "Hash::Merge" => "0.200",
+    "IO::All" => "0.65",
+    "Swim" => "v0.1.11",
+    "Swim::Plugin::badge" => "v0.1.2",
+    "Template::Toolkit::Simple" => "0.19",
+    "YAML::XS" => "0.44"
   },
-  "VERSION" => "0.0.67",
+  "VERSION" => "0.0.68",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -53,19 +53,19 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "CPAN::Uploader" => 0,
-  "Dist::Zilla" => 0,
-  "Dist::Zilla::Plugin::ChangesFromYaml" => 0,
-  "Dist::Zilla::Plugin::GithubMeta" => 0,
-  "Dist::Zilla::Plugin::ReadmeFromPod" => 0,
-  "Dist::Zilla::PluginBundle::Git" => 0,
-  "File::Share" => 0,
-  "Hash::Merge" => 0,
-  "IO::All" => 0,
-  "Swim" => "v0.1.8",
-  "Swim::Plugin::badge" => 0,
-  "Template::Toolkit::Simple" => 0,
-  "YAML::XS" => 0
+  "CPAN::Uploader" => "0.103004",
+  "Dist::Zilla" => "5.019",
+  "Dist::Zilla::Plugin::ChangesFromYaml" => "0.004",
+  "Dist::Zilla::Plugin::GithubMeta" => "0.46",
+  "Dist::Zilla::Plugin::ReadmeFromPod" => "0.21",
+  "Dist::Zilla::PluginBundle::Git" => "2.023",
+  "File::Share" => "0.14",
+  "Hash::Merge" => "0.200",
+  "IO::All" => "0.65",
+  "Swim" => "v0.1.11",
+  "Swim::Plugin::badge" => "v0.1.2",
+  "Template::Toolkit::Simple" => "0.19",
+  "YAML::XS" => "0.44"
 );
 
 
