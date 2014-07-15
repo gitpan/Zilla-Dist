@@ -1,6 +1,5 @@
-0.0.68 Mon Jul 14 15:08:48 PDT 2014
- - Depend on latest versions of prereqs.
- - Had inconsistent DZ results.
+0.0.69 Tue Jul 15 11:17:43 PDT 2014
+ - Fix issue#21. Check Meta correctness before release.
 
 0.0.67 Mon Jul 14 12:34:24 PDT 2014
  - Fix the share/Meta file.
