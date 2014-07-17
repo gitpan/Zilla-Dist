@@ -42,12 +42,12 @@ my %WriteMakefileArgs = (
     "File::Share" => "0.14",
     "Hash::Merge" => "0.200",
     "IO::All" => "0.65",
-    "Swim" => "v0.1.11",
-    "Swim::Plugin::badge" => "v0.1.2",
+    "Swim" => "v0.1.12",
+    "Swim::Plugin::badge" => "v0.1.3",
     "Template::Toolkit::Simple" => "0.19",
     "YAML::XS" => "0.44"
   },
-  "VERSION" => "0.0.72",
+  "VERSION" => "0.0.73",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -66,8 +66,8 @@ my %FallbackPrereqs = (
   "File::Share" => "0.14",
   "Hash::Merge" => "0.200",
   "IO::All" => "0.65",
-  "Swim" => "v0.1.11",
-  "Swim::Plugin::badge" => "v0.1.2",
+  "Swim" => "v0.1.12",
+  "Swim::Plugin::badge" => "v0.1.3",
   "Template::Toolkit::Simple" => "0.19",
   "YAML::XS" => "0.44"
 );

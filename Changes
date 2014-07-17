@@ -1,3 +1,8 @@
+0.0.73 Thu Jul 17 08:05:30 PDT 2014
+ - Fix issue/24. rurban++
+ - Don't dist-dep on the travis-deps.
+ - Fixed swim modules, and dep on new ones
+
 0.0.72 Thu Jul 17 08:05:30 PDT 2014
  - Add mailing list info to contributing
 
