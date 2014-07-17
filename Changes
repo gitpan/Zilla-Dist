@@ -1,3 +1,7 @@
+0.0.74 Thu Jul 17 11:12:12 PDT 2014
+ - Fix for issue/25. rurban++
+ - Call perl scripts with current perl
+
 0.0.73 Thu Jul 17 08:05:30 PDT 2014
  - Fix issue/24. rurban++
  - Don't dist-dep on the travis-deps.
