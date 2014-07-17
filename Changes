@@ -1,3 +1,6 @@
+0.0.72 Thu Jul 17 08:05:30 PDT 2014
+ - Add mailing list info to contributing
+
 0.0.71 Thu Jul 17 00:11:37 PDT 2014
  - Fix issue/22
  - Die on make commands when Makefile changes

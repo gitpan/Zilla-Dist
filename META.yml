@@ -40,4 +40,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.71
+version: 0.0.72
