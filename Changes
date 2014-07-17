@@ -1,3 +1,7 @@
+0.0.71 Thu Jul 17 00:11:37 PDT 2014
+ - Fix issue/22
+ - Die on make commands when Makefile changes
+
 0.0.70 Wed Jul 16 22:57:32 PDT 2014
  - Add new prereqs
  - Dist::Zilla::Plugin::TestBaseIncluder
