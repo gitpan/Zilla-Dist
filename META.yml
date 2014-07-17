@@ -25,6 +25,8 @@ requires:
   Dist::Zilla::Plugin::ChangesFromYaml: '0.004'
   Dist::Zilla::Plugin::GithubMeta: '0.46'
   Dist::Zilla::Plugin::ReadmeFromPod: '0.21'
+  Dist::Zilla::Plugin::TestBaseIncluder: '0.05'
+  Dist::Zilla::Plugin::TestMLIncluder: '0.05'
   Dist::Zilla::PluginBundle::Git: '2.023'
   File::Share: '0.14'
   Hash::Merge: '0.200'
@@ -38,4 +40,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.69
+version: 0.0.70

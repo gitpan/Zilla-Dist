@@ -36,6 +36,8 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::Plugin::ChangesFromYaml" => "0.004",
     "Dist::Zilla::Plugin::GithubMeta" => "0.46",
     "Dist::Zilla::Plugin::ReadmeFromPod" => "0.21",
+    "Dist::Zilla::Plugin::TestBaseIncluder" => "0.05",
+    "Dist::Zilla::Plugin::TestMLIncluder" => "0.05",
     "Dist::Zilla::PluginBundle::Git" => "2.023",
     "File::Share" => "0.14",
     "Hash::Merge" => "0.200",
@@ -45,7 +47,7 @@ my %WriteMakefileArgs = (
     "Template::Toolkit::Simple" => "0.19",
     "YAML::XS" => "0.44"
   },
-  "VERSION" => "0.0.69",
+  "VERSION" => "0.0.70",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -58,6 +60,8 @@ my %FallbackPrereqs = (
   "Dist::Zilla::Plugin::ChangesFromYaml" => "0.004",
   "Dist::Zilla::Plugin::GithubMeta" => "0.46",
   "Dist::Zilla::Plugin::ReadmeFromPod" => "0.21",
+  "Dist::Zilla::Plugin::TestBaseIncluder" => "0.05",
+  "Dist::Zilla::Plugin::TestMLIncluder" => "0.05",
   "Dist::Zilla::PluginBundle::Git" => "2.023",
   "File::Share" => "0.14",
   "Hash::Merge" => "0.200",
