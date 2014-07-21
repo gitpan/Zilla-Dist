@@ -1,3 +1,6 @@
+0.0.86 Sat Jul 19 13:50:35 PDT 2014
+ - Fix issues/17. Sort prereqs list in dist.ini
+
 0.0.85 Sat Jul 19 13:28:54 PDT 2014
  - 2nd attempt at issues/20
 
