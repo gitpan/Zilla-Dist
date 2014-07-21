@@ -36,8 +36,9 @@ requires:
   Template::Toolkit::Simple: '0.19'
   YAML::XS: '0.44'
   perl: v5.8.1
+  version: '0.9908'
 resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.75
+version: 0.0.76

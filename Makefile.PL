@@ -45,9 +45,10 @@ my %WriteMakefileArgs = (
     "Swim" => "v0.1.12",
     "Swim::Plugin::badge" => "v0.1.3",
     "Template::Toolkit::Simple" => "0.19",
-    "YAML::XS" => "0.44"
+    "YAML::XS" => "0.44",
+    "version" => "0.9908"
   },
-  "VERSION" => "0.0.75",
+  "VERSION" => "0.0.76",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -69,7 +70,8 @@ my %FallbackPrereqs = (
   "Swim" => "v0.1.12",
   "Swim::Plugin::badge" => "v0.1.3",
   "Template::Toolkit::Simple" => "0.19",
-  "YAML::XS" => "0.44"
+  "YAML::XS" => "0.44",
+  "version" => "0.9908"
 );
 
 

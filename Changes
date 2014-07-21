@@ -1,3 +1,7 @@
+0.0.76 Fri Jul 18 11:23:20 PDT 2014
+ - issue/10
+ - Fully check out Changes file content and structure
+
 0.0.75 Thu Jul 17 15:10:19 PDT 2014
  - Fix issues with using multiple perls. rurban++
 
