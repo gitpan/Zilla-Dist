@@ -1,4 +1,7 @@
-0.0.77 Sat Jul 19 12:25:20 PDT 2014
+0.0.79 Sat Jul 19 12:33:35 PDT 2014
+ - issue/26. Commit changes *after* upload succeeds.
+
+0.0.78 Sat Jul 19 12:30:28 PDT 2014
  - issue/6. Make sure version change is an increase.
 
 0.0.76 Fri Jul 18 11:23:20 PDT 2014
