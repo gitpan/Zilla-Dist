@@ -1,4 +1,7 @@
-0.0.84 Sat
+0.0.85 Sat Jul 19 13:28:54 PDT 2014
+ - 2nd attempt at issues/20
+
+0.0.84 Sat Jul 19 13:09:52 PDT 2014
  - Fix issues/20
  - Auto update date in Changes on release
 
