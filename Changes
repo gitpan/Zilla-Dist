@@ -1,3 +1,6 @@
+0.0.77 Sat Jul 19 12:25:20 PDT 2014
+ - issue/6. Make sure version change is an increase.
+
 0.0.76 Fri Jul 18 11:23:20 PDT 2014
  - issue/10
  - Fully check out Changes file content and structure
