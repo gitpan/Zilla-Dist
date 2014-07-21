@@ -28,6 +28,7 @@ requires:
   Dist::Zilla::Plugin::TestBaseIncluder: '0.05'
   Dist::Zilla::Plugin::TestMLIncluder: '0.05'
   Dist::Zilla::PluginBundle::Git: '2.023'
+  ExtUtils::MakeMaker: '6.98'
   File::Share: '0.14'
   Hash::Merge: '0.200'
   IO::All: '0.65'
@@ -41,4 +42,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.79
+version: 0.0.80

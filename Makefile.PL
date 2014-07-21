@@ -39,6 +39,7 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::Plugin::TestBaseIncluder" => "0.05",
     "Dist::Zilla::Plugin::TestMLIncluder" => "0.05",
     "Dist::Zilla::PluginBundle::Git" => "2.023",
+    "ExtUtils::MakeMaker" => "6.98",
     "File::Share" => "0.14",
     "Hash::Merge" => "0.200",
     "IO::All" => "0.65",
@@ -48,7 +49,7 @@ my %WriteMakefileArgs = (
     "YAML::XS" => "0.44",
     "version" => "0.9908"
   },
-  "VERSION" => "0.0.79",
+  "VERSION" => "0.0.80",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -64,6 +65,7 @@ my %FallbackPrereqs = (
   "Dist::Zilla::Plugin::TestBaseIncluder" => "0.05",
   "Dist::Zilla::Plugin::TestMLIncluder" => "0.05",
   "Dist::Zilla::PluginBundle::Git" => "2.023",
+  "ExtUtils::MakeMaker" => "6.98",
   "File::Share" => "0.14",
   "Hash::Merge" => "0.200",
   "IO::All" => "0.65",
