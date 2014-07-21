@@ -44,9 +44,9 @@
             "Dist::Zilla::Plugin::TestMLIncluder" : "0.05",
             "Dist::Zilla::PluginBundle::Git" : "2.023",
             "ExtUtils::MakeMaker" : "6.98",
-            "File::Share" : "0.14",
+            "File::Share" : "0.15",
             "Hash::Merge" : "0.200",
-            "IO::All" : "0.65",
+            "IO::All" : "0.66",
             "Swim" : "v0.1.12",
             "Swim::Plugin::badge" : "v0.1.3",
             "Template::Toolkit::Simple" : "0.19",
@@ -68,6 +68,6 @@
          "web" : "https://github.com/ingydotnet/zilla-dist-pm"
       }
    },
-   "version" : "0.0.86"
+   "version" : "0.0.87"
 }
 

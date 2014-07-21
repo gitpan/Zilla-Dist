@@ -1,3 +1,7 @@
+0.0.87 Sat Jul 19 14:04:31 PDT 2014
+ - Fix issues/29.
+ - Add target to install prereqs from CPAN
+
 0.0.86 Sat Jul 19 13:50:35 PDT 2014
  - Fix issues/17. Sort prereqs list in dist.ini
 

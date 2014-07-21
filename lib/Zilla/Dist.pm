@@ -1,6 +1,6 @@
 use strict;
 package Zilla::Dist;
-our $VERSION = '0.0.86';
+our $VERSION = '0.0.87';
 
 use YAML::XS;
 use File::Share;
@@ -68,7 +68,7 @@ sub do_meta {
         }
         elsif (ref($value) eq 'HASH') {
             for my $kk (sort keys %$value) {
-                print "$kk\t$value->{$kk}\n";
+                print "$kk\n" unless $kk =~ /^(?:perl)$/;
             }
         }
         else {
