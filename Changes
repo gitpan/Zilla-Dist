@@ -1,3 +1,7 @@
+0.0.84 Sat
+ - Fix issues/20
+ - Auto update date in Changes on release
+
 0.0.83 Sat Jul 19 12:59:18 PDT 2014
  - Yet another try for issues/23
 
@@ -47,7 +51,7 @@
  - Dist::Zilla::Plugin::TestMLIncluder
 
 0.0.69 Tue Jul 15 11:17:43 PDT 2014
- - Fix issue#21. Check Meta correctness before release.
+ - Fix issues/21. Check Meta correctness before release.
 
 0.0.67 Mon Jul 14 12:34:24 PDT 2014
  - Fix the share/Meta file.
@@ -111,7 +115,7 @@
  - Fix typo. @mohawk2++
 
 0.0.48 Wed Jul  9 11:12:13 PDT 2014
- - Support release branch variable in Meta (Issue#7)
+ - Support release branch variable in Meta (issues/7)
 
 0.0.47 Fri Jul  4 07:23:55 PDT 2014
  - Don't prompt to commit Changes
@@ -203,7 +207,7 @@
  - New badge syntax
 
 0.0.19 Fri Jun 13 22:41:15 PDT 2014
- - Support xt tests (Issue
+ - Support xt tests (issues/4)
 
 0.0.18 Fri Jun 13 21:26:03 PDT 2014
  - Add TestBase support (for YAML.pm mostly)
