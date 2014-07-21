@@ -1,3 +1,7 @@
+0.0.81 Sat Jul 19 12:44:20 PDT 2014
+ - Fix issues/23
+ - make release fails when all files committed already
+
 0.0.80 Sat Jul 19 12:42:13 PDT 2014
  - Fix issues/28
  - Dep on ExtUtils-MakeMaker-6.98 to fix 3 part version warnings
