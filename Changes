@@ -1,3 +1,6 @@
+0.0.82 Sat Jul 19 12:47:21 PDT 2014
+ - Another try for issues/23
+
 0.0.81 Sat Jul 19 12:44:20 PDT 2014
  - Fix issues/23
  - make release fails when all files committed already
