@@ -18,6 +18,7 @@ lib/Zilla/Dist/Contributing.pod
 share/Contributing
 share/Makefile
 share/Meta
+share/alias.pm
 share/dist.ini
 share/travis.yml
 t/release-pod-syntax.t
