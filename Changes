@@ -1,3 +1,6 @@
+0.0.88 Sat Jul 19 14:35:34 PDT 2014
+ - -e in prove messes up -T, so using $(PERL) -S
+
 0.0.87 Sat Jul 19 14:04:31 PDT 2014
  - Fix issues/29.
  - Add target to install prereqs from CPAN
