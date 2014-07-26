@@ -1,5 +1,12 @@
+0.0.93 Fri Jul 25 22:11:28 PDT 2014
+ - Merge 0.91 and 0.92 changes
+
 0.0.92 Fri Jul 25 21:23:51 PDT 2014
  - Allow for main lib different than package name
+
+0.0.91 Fri Jul 25 18:11:04 PDT 2014
+ - Fix issue/33. cp option for OSX.
+ - Released from OSX.
 
 0.0.90 Thu Jul 24 10:23:28 PDT 2014
  - Check for boilerplate email in Meta
