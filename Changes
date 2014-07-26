@@ -1,3 +1,6 @@
+0.0.97 Sat Jul 26 14:07:56 PDT 2014
+ - Add zild-update-all to do mass review/release
+
 0.0.96 Sat Jul 26 11:52:19 PDT 2014
  - Fix issue/19
  - Auto edit Meta/Changes for `make release` if not edited.
