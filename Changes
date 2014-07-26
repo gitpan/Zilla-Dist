@@ -1,3 +1,8 @@
+0.0.96 Sat Jul 26 11:52:19 PDT 2014
+ - Fix issue/19
+ - Auto edit Meta/Changes for `make release` if not edited.
+ - Testing right now :)
+
 0.0.95 Sat Jul 26 11:20:01 PDT 2014
  - Fix issue/32
  - Auto enable irc and travis as appropriate
