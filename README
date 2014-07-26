@@ -21,11 +21,13 @@ DESCRIPTION
     A fully stacked top level CPAN package repository might look like this:
 
         Changes         # History in YAML
+        Contributing    # A generated insruction file for contributing
         Makefile        # Automation of test, dist, publish, etc
         Meta            # Meta info for all metadata needs (including dzil)
         ReadMe.pod      # Generated from `doc/Module.swim`
         bin/            # Scripts
         doc/            # Swim docs
+        ext/            # External repos (subrepos)
         eg/             # Examples
         lib/            # Perl `.pm` code
         note/           # Project notes, todo lists, ideas, specs, etc
@@ -89,10 +91,10 @@ USAGE
     and you'll get a "Makefile" and a "Meta" file template. You need to
     customize the "Meta" file and leave the "Makefile" alone.
 
-    To do a release, just set the "version" in the Meta file and add a
+    To do a release, just set a new "version" in the Meta file and add a
     "Changes" section using the same version. Then run:
 
-        make publish
+        make release
 
     This will:
 
@@ -108,13 +110,19 @@ USAGE
 
     *   "git push" the repo and tag upstream.
 
+  Release in Depth
+    This section lists all the things that actually happen during the "make
+    release" step.
+
+    *…to be completed…*
+
 RATIONALE RANTING
     I've published a lot of *packages* in a lot of programming languages. I
     like taking the best ideas and spreading them around. I like reusing
     ideas and code and tools as much as possible between these packages.
 
     I trust dzil to DTRT with regard to the CPAN release process. I use
-    almost the exact same "dist.ini" for some 20 CPAN packages that I've
+    almost the exact same "dist.ini" for some 50 CPAN packages that I've
     converted so far.
 
     I don't like cluttered repos and adding new *metadata* files for each
@@ -123,7 +131,7 @@ RATIONALE RANTING
 
     As much as these great new ideas differ from the norm, I want my CPAN
     publishings to be normal to normal mongers (if there's such a thing).
-    The "make publish" process does just that. End users would have to look
+    The "make releasse" process does just that. End users would have to look
     hard to know this wasn't a "normal" dzil release.
 
     I'm packaging this packaging process as Zilla::Dist for others to use.
@@ -168,14 +176,22 @@ SEE ALSO
     *   Dist::Zilla
 
   Modules Published to CPAN w/ `zild`
+    *   <https://github.com/ingydotnet/acme-ybfod-pm>
+
     *   <https://github.com/ingydotnet/boolean-pm>
+
+    *   <https://github.com/ingydotnet/class-field-pm>
 
     *   <https://github.com/ingydotnet/dist-zilla-plugin-testbaseincluder-pm
         >
 
     *   <https://github.com/ingydotnet/dist-zilla-plugin-testmlincluder-pm>
 
+    *   <https://github.com/ingydotnet/error-errors-pm>
+
     *   <https://github.com/ingydotnet/file-share-pm>
+
+    *   <https://github.com/ingydotnet/gloom-pm>
 
     *   <https://github.com/ingydotnet/inline-pm>
 
@@ -195,6 +211,12 @@ SEE ALSO
 
     *   <https://github.com/ingydotnet/language-snusp-pm>
 
+    *   <https://github.com/ingydotnet/module-install-ackxxx-pm>
+
+    *   <https://github.com/ingydotnet/module-install-manifestskip-pm>
+
+    *   <https://github.com/ingydotnet/module-manifest-skip-pm>
+
     *   <https://github.com/ingydotnet/moos-pm>
 
     *   <https://github.com/ingydotnet/lexicals-pm>
@@ -209,9 +231,15 @@ SEE ALSO
 
     *   <https://github.com/ingydotnet/pegex-cmd-pm>
 
+    *   <https://github.com/ingydotnet/pegex-cpan-packages-pm>
+
     *   <https://github.com/ingydotnet/pegex-crontab-pm>
 
+    *   <https://github.com/ingydotnet/pegex-forth-pm>
+
     *   <https://github.com/ingydotnet/pegex-json-pm>
+
+    *   <https://github.com/ingydotnet/pegex-vcard-pm>
 
     *   <https://github.com/ingydotnet/perl5-pm>
 
@@ -223,9 +251,13 @@ SEE ALSO
 
     *   <https://github.com/ingydotnet/pquery-pm>
 
+    *   <https://github.com/ingydotnet/rosettacode-pm>
+
     *   <https://github.com/ingydotnet/spiffy-pm>
 
     *   <https://github.com/ingydotnet/stackato-stackrad-pm>
+
+    *   <https://github.com/ingydotnet/stump-pm>
 
     *   <https://github.com/ingydotnet/swim-pm>
 

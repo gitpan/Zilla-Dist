@@ -1,6 +1,6 @@
 use strict;
 package Zilla::Dist;
-our $VERSION = '0.0.94';
+our $VERSION = '0.0.95';
 
 use YAML::XS;
 use File::Share;
@@ -152,6 +152,45 @@ sub find_sharedir {
     my $sharedir = File::Share::dist_dir('Zilla-Dist');
     -d $sharedir or die "Can't find Zilla::Dist share dir";
     return $sharedir;
+}
+
+sub do_webhooks {
+    my ($self) = @_;
+    return unless $ENV{PERL_ZILLA_DIST_GIT_HUB_WEBHOOKS};
+    return unless -d '.git';
+    my $path = '.git/zilla-dist/webhooks';
+    my $travis = io->file("$path/travis");
+    my $irc = io->file("$path/irc");
+    for my $hook (qw(travis irc)) {
+        my $file = io->file("$path/$hook");
+        if ($file->exists) {
+            my $hook_version = $file->chomp->getline;
+            my $api_version = '0.0.95';
+            next if
+                version->parse($hook_version) >=
+                version->parse($api_version);
+        }
+        my $method = "webhook_command_$hook";
+        my $command = $self->$method or next;
+        print "Running: '$command'\n";
+        system($command) == 0
+            or die "Error: command failed: $!";
+        io->file("$path/$hook")->assert->print($VERSION);
+    }
+}
+
+sub webhook_command_travis {
+    my ($self) = @_;
+    return unless $self->{meta}{'=travis'};
+    return "git hub travis-enable";
+}
+
+sub webhook_command_irc {
+    my ($self) = @_;
+    my $irc;
+    return unless $irc = $self->{meta}{devel}{irc};
+    return unless $irc =~ /^(\w\S*)#(\w\S*)$/;
+    return "git hub irc-enable $2 $1";
 }
 
 sub usage {
