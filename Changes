@@ -1,3 +1,6 @@
+0.0.101 Wed Jul 30 15:07:37 PDT 2014
+ - Change commit message to 'CPAN Release x.y.z'
+
 0.0.100 Mon Jul 28 07:26:50 PDT 2014
  - Add metanoindex feature to Meta
 
