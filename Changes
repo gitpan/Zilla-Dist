@@ -1,3 +1,10 @@
+0.0.105 Thu Jul 31 12:00:30 PDT 2014
+ - Need to try `plenv rehash` after install
+
+0.0.104 Thu Jul 31 11:43:30 PDT 2014
+ - Make Zilla-Dist install itself before release
+ - This was leading to some botched releases
+
 0.0.103 Thu Jul 31 11:36:33 PDT 2014
  - Put last Changes entry into release commit message
 
