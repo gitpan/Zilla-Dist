@@ -1,3 +1,6 @@
+0.0.106 Thu Jul 31 12:18:42 PDT 2014
+ - Fix a bad `swim` invocation
+
 0.0.105 Thu Jul 31 12:00:30 PDT 2014
  - Need to try `plenv rehash` after install
 
