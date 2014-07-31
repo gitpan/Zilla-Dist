@@ -1,3 +1,6 @@
+0.0.102 Thu Jul 31 10:32:54 PDT 2014
+ - Be better about swim doc type detection.
+
 0.0.101 Wed Jul 30 15:07:37 PDT 2014
  - Change commit message to 'CPAN Release x.y.z'
 
