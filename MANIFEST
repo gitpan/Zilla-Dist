@@ -9,6 +9,7 @@ Makefile.PL
 README
 bin/zild
 bin/zild-check-release
+bin/zild-git-commit
 bin/zild-make-cpan
 bin/zild-render-template
 bin/zild-update-all

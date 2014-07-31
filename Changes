@@ -1,3 +1,6 @@
+0.0.103 Thu Jul 31 11:36:33 PDT 2014
+ - Put last Changes entry into release commit message
+
 0.0.102 Thu Jul 31 10:32:54 PDT 2014
  - Be better about swim doc type detection.
 
