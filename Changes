@@ -1,5 +1,9 @@
-0.0.109 Sat Aug  2 18:23:03 PDT 2014
+0.0.110 Sat Aug  2 18:57:31 PDT 2014
+ - Fix bugs in zild-setup-release process
+ - Fix Changes log from last release
 
+0.0.109 Sat Aug  2 18:23:03 PDT 2014
+ - Add bin/zild-setup-release
 
 0.0.108 Sat Aug  2 10:12:57 PDT 2014
  - Add `zild years`
