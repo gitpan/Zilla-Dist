@@ -11,9 +11,9 @@ bin/zild
 bin/zild-check-release
 bin/zild-git-commit
 bin/zild-make-cpan
+bin/zild-massive-attack
 bin/zild-render-template
 bin/zild-setup-release
-bin/zild-update-all
 bin/zild-version-update
 lib/Zilla/Dist.pm
 lib/Zilla/Dist.pod

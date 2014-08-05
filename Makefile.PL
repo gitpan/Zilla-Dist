@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     "bin/zild-make-cpan",
     "bin/zild-setup-release",
     "bin/zild-version-update",
-    "bin/zild-update-all",
+    "bin/zild-massive-attack",
     "bin/zild-git-commit",
     "bin/zild-check-release",
     "bin/zild"
@@ -52,7 +52,7 @@ my %WriteMakefileArgs = (
     "YAML::XS" => "0.44",
     "version" => "0.9908"
   },
-  "VERSION" => "0.0.113",
+  "VERSION" => "0.0.114",
   "test" => {
     "TESTS" => "t/*.t"
   }
