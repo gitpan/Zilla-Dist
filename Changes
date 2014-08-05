@@ -1,3 +1,6 @@
+0.0.116 Tue Aug  5 10:36:29 PDT 2014
+ - FIx a couple path nits with '::'
+
 0.0.115 Tue Aug  5 10:06:47 PDT 2014
  - More work on massive-attack script
 
