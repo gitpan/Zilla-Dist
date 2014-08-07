@@ -1,3 +1,6 @@
+0.0.118 Thu Aug  7 00:27:13 PDT 2014
+ - Fix bad encoding in Pod
+
 0.0.117 Wed Aug  6 09:15:21 PDT 2014
  - Check $VERSION exists in main library.
 

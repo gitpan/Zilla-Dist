@@ -115,7 +115,7 @@ USAGE
     This section lists all the things that actually happen during the "make
     release" step.
 
-    *â¦to be completedâ¦*
+    *…to be completed…*
 
 RATIONALE RANTING
     I've published a lot of *packages* in a lot of programming languages. I
@@ -282,7 +282,11 @@ SEE ALSO
 
     *   <https://github.com/ingydotnet/template-toolkit-simple-pm>
 
+    *   <https://github.com/ingydotnet/template-plugin-yamlval-pm>
+
     *   <https://github.com/ingydotnet/test-base-pm>
+
+    *   <https://github.com/ingydotnet/test-yaml-pm>
 
     *   <https://github.com/ingydotnet/testml-pm>
 
@@ -310,13 +314,15 @@ SEE ALSO
 
     *   <https://github.com/ingydotnet/yaml-shell-pm>
 
+    *   <https://github.com/ingydotnet/yamltime-pm>
+
     *   <https://github.com/ingydotnet/zilla-dist-pm> !!
 
 AUTHOR
-    Ingy dÃ¶t Net <ingy@cpan.org>
+    Ingy döt Net <ingy@cpan.org>
 
 COPYRIGHT AND LICENSE
-    Copyright 2014. Ingy dÃ¶t Net.
+    Copyright 2014. Ingy döt Net.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
