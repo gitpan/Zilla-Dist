@@ -1,3 +1,7 @@
+0.0.119 Tue Aug 12 10:58:21 PDT 2014
+ - Added test-dev and test-all targets
+ - Make `make release` dep on `test-all` now
+
 0.0.118 Thu Aug  7 00:27:13 PDT 2014
  - Fix bad encoding in Pod
 
