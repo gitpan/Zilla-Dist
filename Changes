@@ -1,3 +1,6 @@
+0.0.121 Wed Aug 13 11:25:00 PDT 2014
+ - Don't update $VERSION on a split line
+
 0.0.120 Tue Aug 12 12:22:50 PDT 2014
  - Print command on failure
 
