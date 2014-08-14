@@ -1,3 +1,6 @@
+0.0.122 Wed Aug 13 21:50:18 PDT 2014
+ - Abort any previous rebase
+
 0.0.121 Wed Aug 13 11:25:00 PDT 2014
  - Don't update $VERSION on a split line
 
