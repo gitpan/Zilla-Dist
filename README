@@ -177,9 +177,11 @@ SEE ALSO
     *   Dist::Zilla
 
   Modules Published to CPAN w/ `zild`
-    *   <https://github.com/ingydotnet/acme--pm>
+    *   <https://github.com/ingydotnet/acme-pm>
 
     *   <https://github.com/ingydotnet/acme-ybfod-pm>
+
+    *   <https://github.com/ingydotnet/akefile-pm>
 
     *   <https://github.com/ingydotnet/alt-pm>
 
@@ -192,6 +194,8 @@ SEE ALSO
     *   <https://github.com/ingydotnet/class-field-pm>
 
     *   <https://github.com/ingydotnet/convert-base32-crockford-pm>
+
+    *   <https://github.com/ingydotnet/devel-local-pm>
 
     *   <https://github.com/ingydotnet/dist-zilla-plugin-testbaseincluder-pm
         >
@@ -224,9 +228,15 @@ SEE ALSO
 
     *   <https://github.com/ingydotnet/lexicals-pm>
 
+    *   <https://github.com/ingydotnet/module-compile-pm>
+
     *   <https://github.com/ingydotnet/module-install-ackxxx-pm>
 
     *   <https://github.com/ingydotnet/module-install-manifestskip-pm>
+
+    *   <https://github.com/ingydotnet/module-install-requireslist-pm>
+
+    *   <https://github.com/ingydotnet/module-install-versioncheck-pm>
 
     *   <https://github.com/ingydotnet/module-manifest-skip-pm>
 
@@ -280,6 +290,8 @@ SEE ALSO
 
     *   <https://github.com/ingydotnet/swim-plugin-badge-pm>
 
+    *   <https://github.com/ingydotnet/swim-plugin-cpan-pm>
+
     *   <https://github.com/ingydotnet/template-toolkit-simple-pm>
 
     *   <https://github.com/ingydotnet/template-plugin-yamlval-pm>
@@ -315,6 +327,8 @@ SEE ALSO
     *   <https://github.com/ingydotnet/yaml-shell-pm>
 
     *   <https://github.com/ingydotnet/yamltime-pm>
+
+    *   <https://github.com/ingydotnet/yamltime-git-pm>
 
     *   <https://github.com/ingydotnet/zilla-dist-pm> !!
 

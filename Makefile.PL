@@ -22,6 +22,7 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "Zilla-Dist",
   "EXE_FILES" => [
+    "bin/zild-convert-dist",
     "bin/zild-render-template",
     "bin/zild-make-cpan",
     "bin/zild-setup-release",
@@ -52,7 +53,7 @@ my %WriteMakefileArgs = (
     "YAML::XS" => "0.44",
     "version" => "0.9908"
   },
-  "VERSION" => "0.0.122",
+  "VERSION" => "0.0.123",
   "test" => {
     "TESTS" => "t/*.t"
   }
