@@ -28,4 +28,3 @@ share/test/000-compile-modules.t
 share/travis.yml
 t/000-compile-modules.t
 t/release-pod-syntax.t
-t/use_ok.t
