@@ -1,3 +1,7 @@
+0.0.133 Fri Aug 15 16:42:27 PDT 2014
+ - Fixed a bug is 000 test.
+ - CPAN Day 2014 - 21 Release Salute!
+
 0.0.132 Fri Aug 15 15:05:38 PDT 2014
  - Retesting release with PERL_ZILLA_DIST_*
 
