@@ -1,3 +1,6 @@
+0.0.134 Fri Aug 15 17:52:04 PDT 2014
+ - 000 test can't *use* 'Alt::' modules
+
 0.0.133 Fri Aug 15 16:42:27 PDT 2014
  - Fixed a bug is 000 test.
  - CPAN Day 2014 - 21 Release Salute!
