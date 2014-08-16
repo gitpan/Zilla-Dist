@@ -27,5 +27,4 @@ share/dist.ini
 share/test/000-compile-modules.t
 share/test/000-require-modules.t
 share/travis.yml
-t/000-compile-modules.t
 t/release-pod-syntax.t
