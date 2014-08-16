@@ -1,3 +1,6 @@
+0.0.144 Fri Aug 15 23:39:47 PDT 2014
+ - Add RELEASE_TESTING=1 to make test-dist
+
 0.0.143 Fri Aug 15 22:38:49 PDT 2014
  - Fix share/alias.pm
 
