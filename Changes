@@ -1,3 +1,6 @@
+0.0.149 Sat Aug 16 16:19:47 PDT 2014
+ - Fix strict/warnings
+
 0.0.148 Sat Aug 16 13:56:23 PDT 2014
  - Remove need for =travis
  - Rework share/travis.yaml
