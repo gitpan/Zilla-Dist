@@ -1,3 +1,6 @@
+0.0.137 Fri Aug 15 18:17:28 PDT 2014
+ - Add Devel::Local to 000 exception list
+
 0.0.136 Fri Aug 15 18:04:07 PDT 2014
  - Allow no test dir in repo
  - Generated tests only is OK
