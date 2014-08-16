@@ -1,3 +1,6 @@
+0.0.135 Fri Aug 15 17:56:46 PDT 2014
+ - Make a test exception for Sex!
+
 0.0.134 Fri Aug 15 17:52:04 PDT 2014
  - 000 test can't *use* 'Alt::' modules
 
