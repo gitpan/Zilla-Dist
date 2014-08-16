@@ -1,3 +1,6 @@
+0.0.142 Fri Aug 15 22:36:36 PDT 2014
+ - Support no 000
+
 0.0.141 Fri Aug 15 19:57:29 PDT 2014
  - Add share/test/000-require-modules.t for "special" modules
  - Things that can't 'use_ok'

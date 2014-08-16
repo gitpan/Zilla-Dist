@@ -176,7 +176,7 @@ NOTES
 SEE ALSO
     *   Dist::Zilla
 
-  Modules Published to CPAN w/ `zild`
+  Modules Published to CPAN w/ "zild"
     *   <https://github.com/ingydotnet/acme-pm>
 
     *   <https://github.com/ingydotnet/acme-ybfod-pm>
