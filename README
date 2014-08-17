@@ -38,9 +38,9 @@ DESCRIPTION
 
     Note a few things:
 
-    *   Sane / readable names
+    *   Sane/Readable names
 
-    *   Directories are lowercase / never plural
+    *   Directories are lowercase. Never plural
 
     *   Files are TitleCase
 
