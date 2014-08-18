@@ -1,3 +1,6 @@
+0.0.154 Mon Aug 18 14:07:01 PDT 2014
+ - Travis accounts for no test/ directory
+
 0.0.153 Mon Aug 18 07:54:06 PDT 2014
  - Simplify 000 tests
 
