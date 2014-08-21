@@ -1,3 +1,6 @@
+0.0.156 Thu Aug 21 11:20:15 PDT 2014
+ - Fix non-tab error in Makefile
+
 0.0.155 Thu Aug 21 11:17:50 PDT 2014
  - Fix for issue/41
  - Honor PERL_ZILLA_DIST_AUTO_INSTALL=1 and install after release
