@@ -1,3 +1,7 @@
+0.0.159 Tue Aug 26 14:21:15 PDT 2014
+ - Remove 'use lib "lib"' from `zild`.
+ - Was causing issues to release Alt-IO-All
+
 0.0.158 Fri Aug 22 21:01:14 PDT 2014
  - Add cpantest and disttest targets back into Makefile.
 
