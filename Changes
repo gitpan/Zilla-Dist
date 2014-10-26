@@ -1,3 +1,6 @@
+0.0.164 Sun Oct 26 22:51:19 UTC 2014
+ - Remove blib on clean
+
 0.0.163 Fri Oct 10 20:47:33 CEST 2014
  - Fixed a couple version bumping errors.
 
