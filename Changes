@@ -1,3 +1,6 @@
+0.0.167 Sun Nov 16 08:53:48 PST 2014
+ - Add rudimentary Inline::Module support
+
 0.0.166 Sun Nov 16 08:21:14 PST 2014
  - Try changing ZD to not commit Makefiles
  - Set up `zild` to just create Makefile (not Meta)
