@@ -1,3 +1,7 @@
+0.0.172 Mon Nov 17 08:17:18 PST 2014
+ - Use Makefile directly from sharedir
+ - Updated docs to reflect new API better
+
 0.0.171 Sun Nov 16 22:39:46 PST 2014
  - Try removing Makefile again. Something messed up.
 
