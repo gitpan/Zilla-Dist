@@ -29,10 +29,6 @@ A YAML changelog history
 
 Instructions for contributing to the project
 
-=item C<Makefile>    
-
-All the automation for developing and shipping
-
 =item C<Meta>        
 
 A YAML file of all metadata needed
@@ -103,33 +99,35 @@ then invokes C<dzil build> to create the CPAN ready tarball.
 
 To see the C<cpan/> directory, run:
 
-    make cpan
+    zild make cpan
 
 To see the distribution directory, run:
 
-    make distdir
+    zild make distdir
 
 To see all the other Makefile targets, run:
 
-    make help
+    zild make help
 
 =head2 Testing
 
 The C<bin>, C<lib> and C<test> directories contain normal code. Make your
 changes and test them with:
 
-    make test
+    zild make test
 
 which simply runs:
 
     prove -lv test/
 
+If you don't have Zilla::Dist installed yet, you can still run the tests with
+that C<prove> command.
+
 =head2 Installing Dependencies
 
 Even though this Project is managed by L<Zilla::Dist>, you probably don't need
-to install it. Many C<Makefile> targets require it, but things like C<make
-test> do not. If you do need C<Zilla::Dist> to be installed, this is the best
-command to use:
+to install it. Just use C<prove> to run tests. If you do need C<Zilla::Dist>
+to be installed, this is the best command to use:
 
     cpanm --notest Zilla::Dist
 
@@ -138,6 +136,6 @@ should only be slow once.
 
 To install the other Project specific dependencies, just run this command:
 
-    make install-deps
+    zild make install-deps
 
 =cut
