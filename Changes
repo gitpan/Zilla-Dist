@@ -1,3 +1,6 @@
+0.0.168 Sun Nov 16 22:22:05 PST 2014
+ - Change how `zild` command works
+
 0.0.167 Sun Nov 16 08:53:48 PST 2014
  - Add rudimentary Inline::Module support
 
