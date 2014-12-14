@@ -1,3 +1,6 @@
+0.0.175 Sun Dec 14 12:52:10 PST 2014
+ - Set an env var in 000compile.t
+
 0.0.174 Mon Nov 24 10:17:15 PST 2014
  - Replace top level repo Contributing with About file
 
