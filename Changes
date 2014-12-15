@@ -1,3 +1,6 @@
+0.0.176 Sun Dec 14 16:25:06 PST 2014
+ - Fix .travis.yml file to fail when tests fail. frew++
+
 0.0.175 Sun Dec 14 12:52:10 PST 2014
  - Set an env var in 000compile.t
 
