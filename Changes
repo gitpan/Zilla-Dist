@@ -1,3 +1,6 @@
+0.0.177 Tue Dec 23 11:00:32 PST 2014
+ - Add `zild <cmd>` aliases for common `zild make <cmd>` targets
+
 0.0.176 Sun Dec 14 16:25:06 PST 2014
  - Fix .travis.yml file to fail when tests fail. frew++
 
