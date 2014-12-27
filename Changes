@@ -1,3 +1,6 @@
+0.0.180 Fri Dec 26 21:47:54 PST 2014
+ - Support win32.requires in Meta
+
 0.0.179 Tue Dec 23 12:04:59 PST 2014
  - Prettier zild help output
 
