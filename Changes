@@ -1,3 +1,6 @@
+0.0.181 Mon Dec 29 17:11:39 PST 2014
+ - Add AltInstall support
+
 0.0.180 Fri Dec 26 21:47:54 PST 2014
  - Support win32.requires in Meta
 
