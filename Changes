@@ -1,3 +1,7 @@
+0.0.182 Wed Dec 31 14:28:35 PST 2014
+ - Pass --meta=Meta to swim
+ - Clean up Makefile a bit
+
 0.0.181 Mon Dec 29 17:11:39 PST 2014
  - Add AltInstall support
 

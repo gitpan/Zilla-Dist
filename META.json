@@ -49,6 +49,7 @@
             "IO::All" : "0.66",
             "Swim" : "v0.1.15",
             "Swim::Plugin::badge" : "v0.1.3",
+            "Swim::Plugin::cpan" : "v0.0.1",
             "Template::Toolkit::Simple" : "0.19",
             "Test::Pod" : "0",
             "YAML::XS" : "0.44",
@@ -69,6 +70,6 @@
          "web" : "https://github.com/ingydotnet/zilla-dist-pm"
       }
    },
-   "version" : "0.0.181"
+   "version" : "0.0.182"
 }
 
