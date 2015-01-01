@@ -1,3 +1,6 @@
+0.0.185 Wed Dec 31 21:24:14 PST 2014
+ - Work with new `swim` commandline args
+
 0.0.184 Wed Dec 31 15:52:34 PST 2014
  - Convert doc to swim-plugin-cpan
 

@@ -1,12 +1,12 @@
-Name
+NAME
     Zilla::Dist - Dist::Zilla Mixed Up
 
-Synopsis
+SYNOPSIS
         > zild Meta
         > # Edit the Meta file.
         > zild release
 
-Description
+DESCRIPTION
     This module is a formalization of a Perl package directory layout and
     release process that I have been evolving for some time. I use the same
     layout for Bash, Ruby, Python and Node.js package publishing.
@@ -88,7 +88,7 @@ Description
     "zild dist"
         Basically the same as "zild cpan; cd cpan; dzil build".
 
-Usage
+USAGE
     Start by running:
 
         cp `zild sharedir`/Meta .
@@ -123,7 +123,7 @@ Usage
 
     *…to be completed…*
 
-Rationale Ranting
+RATIONALE RANTING
     I've published a lot of *packages* in a lot of programming languages. I
     like taking the best ideas and spreading them around. I like reusing
     ideas and code and tools as much as possible between these packages.
@@ -144,7 +144,7 @@ Rationale Ranting
     I'm packaging this packaging process as Zilla::Dist for others to use.
     It's also a decent example of a CPAN package packaged with itself.
 
-Notes
+NOTES
     Some of the tools in Zilla::Dist are Bash, some are Perl. I'm doing a
     lot in the area of Bash Package packaging. See <http://bpan.org>.
 
@@ -333,13 +333,13 @@ Notes
 
     *   <https://github.com/ingydotnet/zilla-dist-pm> !!
 
-See Also
+SEE ALSO
     *   Dist::Zilla
 
-Author
+AUTHOR
     Ingy döt Net <ingy@cpan.org>
 
-Copyright and License
+COPYRIGHT AND LICENSE
     Copyright 2014. Ingy döt Net.
 
     This program is free software; you can redistribute it and/or modify it
