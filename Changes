@@ -1,3 +1,6 @@
+0.0.184 Wed Dec 31 15:52:34 PST 2014
+ - Convert doc to swim-plugin-cpan
+
 0.0.183 Wed Dec 31 15:08:14 PST 2014
  - Fix doc references to `make`, to `zild`.
 
