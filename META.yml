@@ -20,28 +20,28 @@ no_index:
     - xt
     - example
 requires:
-  CPAN::Uploader: '0.103004'
-  Dist::Zilla: '5.019'
+  CPAN::Uploader: '0.103007'
+  Dist::Zilla: '5.029'
   Dist::Zilla::Plugin::ChangesFromYaml: '0.004'
   Dist::Zilla::Plugin::GithubMeta: '0.46'
-  Dist::Zilla::Plugin::ReadmeFromPod: '0.21'
-  Dist::Zilla::Plugin::TestBaseIncluder: '0.05'
-  Dist::Zilla::Plugin::TestMLIncluder: '0.05'
-  Dist::Zilla::PluginBundle::Git: '2.023'
+  Dist::Zilla::Plugin::ReadmeFromPod: '0.30'
+  Dist::Zilla::Plugin::TestBaseIncluder: '0.09'
+  Dist::Zilla::Plugin::TestMLIncluder: '0.12'
+  Dist::Zilla::PluginBundle::Git: '2.029'
   ExtUtils::MakeMaker: '6.98'
-  File::Share: '0.15'
+  File::Share: '0.25'
   Hash::Merge: '0.200'
-  IO::All: '0.66'
-  Swim: v0.1.32
-  Swim::Plugin::badge: v0.1.7
-  Swim::Plugin::cpan: v0.0.1
-  Template::Toolkit::Simple: '0.19'
-  Test::Pod: '0'
-  YAML::XS: '0.44'
+  IO::All: '0.86'
+  Swim: v0.1.35
+  Swim::Plugin::badge: v0.1.8
+  Swim::Plugin::cpan: v0.0.5
+  Template::Toolkit::Simple: '0.31'
+  Test::Pod: '1.48'
+  YAML::XS: '0.55'
   perl: v5.8.1
   version: '0.9908'
 resources:
   bugtracker: https://github.com/ingydotnet/zilla-dist-pm/issues
   homepage: https://github.com/ingydotnet/zilla-dist-pm
   repository: https://github.com/ingydotnet/zilla-dist-pm.git
-version: 0.0.186
+version: 0.0.187
